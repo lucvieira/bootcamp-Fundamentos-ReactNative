@@ -43,7 +43,7 @@ const Dashboard: React.FC = () => {
         const response = await api.get('/products');
         setProducts(response.data);
       } catch (error) {
-        console.log(`${error}error`);
+        console.log(`${error}errors`);
       }
     }
 
